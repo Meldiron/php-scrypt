@@ -1,0 +1,11 @@
+[package]
+name = "scrypt_php"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ext-php-rs = "*"
+scrypt = "*"
+
+[lib]
+crate-type = ["cdylib"]
